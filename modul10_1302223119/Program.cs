@@ -22,6 +22,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-Console.WriteLine(Directory.GetCurrentDirectory());
-
 app.Run();
